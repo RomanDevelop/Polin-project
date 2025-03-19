@@ -1,55 +1,55 @@
-# FriendShip - Modern Best Friends Website
+# FriendShip - Сучасний Веб-сайт про Найкращих Друзів
 
-A modern, responsive website showcasing friendship connections, memories, and shared experiences. Built with HTML, CSS, and JavaScript.
+Сучасний, адаптивний веб-сайт, що демонструє дружні зв'язки, спогади та спільні враження. Створений за допомогою HTML, CSS та JavaScript.
 
-## Features
+## Особливості
 
-- **Modern UI Design**: Clean, minimalist aesthetics with vibrant accent colors
-- **Fully Responsive**: Adapts perfectly to all device sizes (mobile, tablet, desktop)
-- **Animated Elements**: Smooth scroll-triggered animations and hover effects
-- **Interactive Components**:
-  - Mobile-friendly navigation with hamburger menu
-  - Form validation and submission feedback
-  - Hover effects on cards and buttons
-  - Scroll-based navbar styling
-- **Well-Structured Sections**:
-  - Hero section with eye-catching design
-  - Friend profiles with social media links
-  - Interactive memory gallery with overlay effects
-  - Favorite hangout spots showcase
-  - Contact form with validation
-  - Newsletter subscription
-  - Comprehensive footer with navigation and social links
+- **Сучасний Дизайн**: Чиста, мінімалістична естетика з яскравими акцентними кольорами
+- **Повністю Адаптивний**: Ідеально адаптується до всіх розмірів пристроїв (мобільний, планшет, комп'ютер)
+- **Анімовані Елементи**: Плавні анімації під час прокрутки та при наведенні
+- **Інтерактивні Компоненти**:
+  - Мобільна навігація з гамбургер-меню
+  - Валідація форм та відгук про відправлення
+  - Ефекти при наведенні на картки та кнопки
+  - Зміна стилю навігаційної панелі при прокрутці
+- **Добре Структуровані Розділи**:
+  - Головний розділ з привабливим дизайном
+  - Профілі друзів з посиланнями на соціальні мережі
+  - Інтерактивна галерея спогадів з ефектами
+  - Відображення улюблених місць зустрічі
+  - Контактна форма з валідацією
+  - Підписка на розсилку
+  - Повноцінний футер з навігацією та соціальними посиланнями
 
-## Technologies Used
+## Використані Технології
 
-- **HTML5**: Semantic markup for better accessibility and SEO
+- **HTML5**: Семантична розмітка для кращої доступності та SEO
 - **CSS3**:
-  - Custom properties (variables) for consistent theming
-  - Flexbox and CSS Grid for modern layouts
-  - Media queries for responsive design
-  - Keyframe animations and transitions
+  - Користувацькі властивості (змінні) для узгодженої теми
+  - Flexbox та CSS Grid для сучасних макетів
+  - Медіа-запити для адаптивного дизайну
+  - Keyframe-анімації та переходи
 - **JavaScript**:
-  - DOM manipulation
-  - Event handling
-  - Intersection Observer API for scroll animations
-  - Form validation
+  - Маніпуляції з DOM
+  - Обробка подій
+  - Intersection Observer API для анімацій при прокрутці
+  - Валідація форм
 
-## How to Use
+## Як Використовувати
 
-1. Clone or download this repository
-2. Open `index.html` in your web browser to view the website
-3. Customize the content to showcase your own friend group:
-   - Replace the placeholder images with your photos
-   - Update friend profiles with real information
-   - Add your own memories and hangout spots
-   - Modify colors and styling in the CSS variables
+1. Клонуйте або завантажте цей репозиторій
+2. Відкрийте `index.html` у вашому веб-браузері для перегляду сайту
+3. Налаштуйте контент для показу вашої власної групи друзів:
+   - Замініть графічні елементи іконками або власними фото
+   - Оновіть профілі друзів реальною інформацією
+   - Додайте власні спогади та місця зустрічей
+   - Змініть кольори та стилі в CSS змінних
 
-## Customization
+## Налаштування
 
-### Changing Colors
+### Зміна Кольорів
 
-You can easily change the color scheme by modifying the CSS variables at the top of the `styles.css` file:
+Ви можете легко змінити кольорову схему, змінивши CSS змінні вгорі файлу `styles.css`:
 
 ```css
 :root {
@@ -57,37 +57,41 @@ You can easily change the color scheme by modifying the CSS variables at the top
   --primary: #6c63ff;
   --primary-dark: #5046e5;
   --secondary: #ff6584;
-  /* ... other variables */
+  /* ... інші змінні */
 }
 ```
 
-### Adding More Friends or Memories
+### Додавання Більшої Кількості Друзів або Спогадів
 
-Simply copy and paste the HTML structure for the friend cards or memory cards and update the content.
+Просто скопіюйте та вставте HTML структуру для карток друзів або спогадів і оновіть контент.
 
-### Replacing Images
+### Заміна Фонових Зображень
 
-Replace the placeholder URLs with your own image paths:
+Змініть градієнти та іконки на власні:
 
 ```css
-.image-1 {
-  /* ... other styles */
-  background-image: url("path-to-your-image.jpg");
+.friend-card:nth-child(1) .friend-image {
+  background-image: linear-gradient(45deg, #6c63ff, #764ba2);
+}
+
+.friend-card:nth-child(1) .friend-image::after {
+  content: "\f5dc"; /* іконка походу */
 }
 ```
 
-## Browser Compatibility
+## Сумісність з Браузерами
 
-The website is compatible with all modern browsers:
+Веб-сайт сумісний з усіма сучасними браузерами:
 
-- Chrome, Firefox, Safari, Edge (latest versions)
-- Mobile browsers on iOS and Android
+- Chrome, Firefox, Safari, Edge (останні версії)
+- Мобільні браузери на iOS та Android
 
-## License
+## Ліцензія
 
-This project is available for personal and commercial use. Attribution is appreciated but not required.
+Цей проект доступний для особистого та комерційного використання. Вказання авторства вітається, але не обов'язкове.
 
 ---
 
-Created with ❤️ for friends who make life an adventure!
+Створено з ❤️ для друзів, які роблять життя пригодою!
+
 # Polin-project
